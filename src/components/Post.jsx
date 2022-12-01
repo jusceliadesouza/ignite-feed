@@ -1,3 +1,4 @@
+import { Avatar } from "./Avatar";
 import { Comment } from "./Comment";
 import styles from "./Post.module.css";
 
@@ -6,8 +7,7 @@ export function Post(props) {
     <article className={styles.post}>
       <header>
         <div className={styles.author}>
-          <img
-            className=""
+          <Avatar
             src="https://source.unsplash.com/random/?People Face/"
             alt=""
           />
@@ -41,7 +41,7 @@ export function Post(props) {
         <strong>Deixe seu feedback</strong>
 
         <textarea placeholder="Deixe seu comentário" />
-        
+
         <footer>
           <button type="submit">Publicar</button>
         </footer>
