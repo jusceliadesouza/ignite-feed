@@ -1,4 +1,4 @@
-export default function Post(props) {
+export function Post(props) {
   return (
     <div>
       <strong>{props.author}</strong>
