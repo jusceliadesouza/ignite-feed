@@ -1,8 +1,12 @@
+import { Header } from "./components/Header";
+
 import Post from "./Post";
 
 export default function App() {
   return (
     <div>
+      <Header />
+
       <Post
         author="Jane Cooper"
         content="Aute minim et amet minim velit ex cillum voluptate."
