@@ -1,7 +1,4 @@
-<div style="display:flex; gap:1rem; justify-content:center;">
-  <img src="public/ignite.svg">  
-  <h1>Ignite Feed</h1>
-</div>
+# ![Ignite Feed](public/ignite.svg) Ignite Feed 
 
 O Ignite Feed consiste em um sistema simulador de uma rede social funcional, com feed, postagens, comentários e aplausos.
 
