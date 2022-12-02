@@ -29,7 +29,6 @@ export function Comment({ content, onDeleteComment }: CommentProps) {
       <Avatar
         hasBorder={false}
         src="https://github.com/jusceliadesouza.png"
-        alt=""
       />
 
       <div className={styles.commentBox}>

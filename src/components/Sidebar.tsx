@@ -8,7 +8,7 @@ export function Sidebar() {
     <aside className={styles.sidebar}>
       <img
         className={styles.cover}
-        src="https://source.unsplash.com/random/?Coding/"
+        src="https://source.unsplash.com/random/?texture-metal/"
         alt=""
       />
 
